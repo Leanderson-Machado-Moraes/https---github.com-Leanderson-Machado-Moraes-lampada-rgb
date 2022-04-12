@@ -1,47 +1,80 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
-.botoes{
-    margin-left: 500px;
-    margin-top: 350px;
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.botoes {
+    margin-left: 100px;
+    margin-top: 80px;
     border: 2px solid black;
     width: 20%;
     text-align: center;
-    
+    border-radius: 30px;
+    height: 450px;
+    background-color: gray;
+
+
 }
 
-.power{
-    width: 50px;
+.power {
+    
     margin-bottom: 30px;
-    
-    
-}
-.btncor{
-justify-content: space-around;
-width: 30%;
-margin-right: 30px;
-margin-bottom: 10px;
-margin-left: 10px;
-height: 20pt;
-font-size: 14pt;
+    margin-top: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
 
 }
-#amarelo{
+
+.btncor {
+    justify-content: space-around;
+    width: 30%;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    height: 20pt;
+    font-size: 13pt;
+    color: black;
+    font-weight: bold;
+
+}
+
+#amarelo {
     background-color: yellow;
 }
-#vermelho{
+
+#vermelho {
     background-color: red;
 }
-#azul{
+
+#azul {
     background-color: blue;
 }
-#laranja{
+
+#laranja {
     background-color: orange;
 }
-#branco{
-    background-color: white;
+
+#rosa {
+    background-color: rgb(255, 32, 69);
 }
-#verde{
+
+#verde {
     background-color: green;
+}
+#lampada{
+    width: 500px;
+    height: 300px;
+    margin-top: 100px;
+}
+.icon{
+    width: 80px;
+    height: 70px;
+    margin-top: 0px;
 }

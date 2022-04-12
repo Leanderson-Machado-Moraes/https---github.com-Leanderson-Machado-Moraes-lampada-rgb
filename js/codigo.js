@@ -1,34 +1,32 @@
-const lampada = document.getElementById("lampada")
+const l = document.getElementById("lampada")
 const azul = document.getElementById("azul")
 const vermelho = document.getElementById("vermelho")
 const laranja = document.getElementById("laranja")
 const amarelo = document.getElementById("amarelo")
 const verde = document.getElementById("verde")
-const branco = document.getElementById("branco")
+const rosa = document.getElementById("rosa")
 const power = document.getElementById("ligadesliga")
 
-function desligareligar(){
-    if(lampada = img.src="./img/"){
-        lampada = img.src="./img/"
-    }else{
-        lampada = img.src="./img"
-    }
+function ligar(){
+    l.src= "img/ligada.jpg"
 }
-function corazul(){
-    lampada.src="./img/"
+  
+function corazul() {
+    l.src = "/img/lampadaazul.jpg"
 }
-function coramarelo(){
-    lampada.src="./img/"
+function coramarelo() {
+    l.src = "img/lampadaamarela.jpg"
 }
-function corlaranja(){
-    lampada.src="./img/"
+function corlaranja() {
+    l.src = "/img/lampadalaranja.jpg"
 }
-function corvermelha(){
-    lampada.src="./img/"
+function corvermelha() {
+    l.src = "/img/lampadavermelha.jpg"
 }
-function corbranca(){
-    lampada.src="./img/"
+function corrosa() {
+    l.src = "/img/lampadarosa.jpg"
 }
-function corverde(){
-    lampada.src="./img/"
+function corverde() {
+    l.src = "/img/lampadaverde.jpg"
 }
+

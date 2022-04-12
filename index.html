@@ -12,21 +12,22 @@
 <body>
     <div class="container">
         <div class="lampada">
-            <img src="" alt="lampada" id="lampada">
+            <img src="./img/desligada.jpg" alt="lampada" id="lampada">
         </div>
         <div class="botoes">
-            <button class="power" id="ligadesliga"><img src="./img/power.png" alt="power"></button><br>
-            <button class="btncor" id="verde">Verde</button>
-            <button class="btncor" id="branco">Branco</button><br>
-            <button class="btncor" id="azul">Azul</button>
-            <button class="btncor" id="vermelho">Vermelho</button><br>
-            <button class="btncor" id="laranja">Laranja</button>
-            <button class="btncor" id="amarelo">Amarelo</button>
+            <button class="power" id="ligadesliga" onclick="ligar()">
+                <img class="icon" src="./img/power.png" alt="power"></button><br>
+            <button class="btncor" id="verde"  onclick="corverde()">Verde</button>
+            <button class="btncor" id="rosa" onclick="corrosa()">Rosa</button><br>
+            <button class="btncor" id="azul"  onclick="corazul()">Azul</button>
+            <button class="btncor" id="vermelho" onclick="corvermelha()">Vermelho</button><br>
+            <button class="btncor" id="laranja" onclick="corlaranja()">Laranja</button>
+            <button class="btncor" id="amarelo" onclick="coramarelo()">Amarelo</button>
 
 
 
         </div>
-<script src="./js/codigo.js"></script>
+        <script src="./js/codigo.js"></script>
 </body>
 
 </html>
